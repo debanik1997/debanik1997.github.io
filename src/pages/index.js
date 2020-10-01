@@ -33,10 +33,10 @@ const IndexPage = () => (
               className="typing"
               style={{ marginLeft: -4 }}
               items={[
-                "a software engineer",
-                "an entrepreneur",
-                "a student",
-                "a dream chaser",
+                "a software engineer.",
+                "an entrepreneur.",
+                "a student.",
+                "a dream chaser.",
               ]}
             />
           </h2>
