@@ -20,14 +20,15 @@ const IndexPage = () => (
       </Col>
       <Col style={{ marginTop: 115, marginRight: 50 }}>
         <h1 className="title">
+          Hey
           <span class="wave" role="img" aria-label="wave">
             &nbsp;👋
           </span>
-          , debanik here
+          &nbsp;, Debanik here!
         </h1>
         <div style={{ textAlign: "right" }}>
           <h2 className="subtitle">
-            i'm &nbsp;
+            I'm &nbsp;
             <ReactRotatingText
               className="typing"
               style={{ marginLeft: -4 }}
@@ -42,28 +43,28 @@ const IndexPage = () => (
         </div>
         <Row>
           <Col xs={3}>
-            <h3 className="secondary emphasis" style={{ marginTop: 80 }}>
+            <h3 className="secondary emphasis" style={{ marginTop: 60 }}>
               about
             </h3>
           </Col>
           <Col>
             <h3
               className="secondary"
-              style={{ fontSize: 24, fontWeight: "normal", marginTop: 80 }}
+              style={{ fontSize: 24, fontWeight: "normal", marginTop: 60 }}
             >
-              starting at{" "}
+              Starting at
               <span style={{ fontWeight: "bold", color: "#3B5998" }}>
-                &nbsp;facebook ny&nbsp;
-              </span>{" "}
-              in july '21
-              <span style={{ marginLeft: 10, marginTop: -5 }}>
-                <Image src={thumbsUp} />
+                &nbsp;Facebook NY&nbsp;
+              </span>
+              in July '21
+              <span style={{ marginLeft: 10}}>
+                <Image style={{ marginBottom: 5}} src={thumbsUp} />
               </span>
             </h3>
             <h3 className="secondary emphasis" style={{ marginTop: 6 }}>
-              i’m passionate about seeing projects from start to finish, and
+              I’m passionate about seeing projects from start to finish, and
               love working cross-functionally across engineering and product.
-              when i’m not coding, i enjoy photography, cooking, and discovering
+              when I’m not coding, I enjoy photography, cooking, and discovering
               new coffee shops.
             </h3>
           </Col>
@@ -75,7 +76,7 @@ const IndexPage = () => (
             </h3>
           </Col>
           <Col>
-            <h3 className="secondary" style={{ marginTop: 30 }}>
+            <h3 className="secondary" style={{ marginTop: 40 }}>
               debanik1997@gmail.com
             </h3>
             <h3 className="secondary">4846249881</h3>
@@ -83,20 +84,20 @@ const IndexPage = () => (
         </Row>
         <Row>
           <Col xs={3}>
-            <h3 className="secondary emphasis" style={{ marginTop: 30 }}>
+            <h3 className="secondary emphasis" style={{ marginTop: 40 }}>
               resume
             </h3>
           </Col>
           <Col>
-            <a
-              href="https://drive.google.com/file/d/1wot3C2eAWQXjkwbh7tou0wx3oAcWqnst/view?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-              className="secondary"
-              style={{ marginTop: 30 }}
-            >
-              dpurkayastha.pdf
-            </a>
+            <h3 className="secondary" style={{ marginTop: 40 }}>
+              <a
+                href="https://drive.google.com/file/d/1wot3C2eAWQXjkwbh7tou0wx3oAcWqnst/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                dpurkayastha.pdf
+              </a>
+            </h3>
           </Col>
         </Row>
       </Col>
