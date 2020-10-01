@@ -119,41 +119,46 @@ body {
   width: 100%;
 }
 
-@media only screen and (max-width: 2000px) {
-  .main {
-    margin-right: 90px;
-  }
+.main {
+  margin-right: 90px;
+}
 
-  .sidenav {
-    background-color: #fe9260;
-    position: fixed;
-    top: 0;
-    height: 100%;
-    width: 90px;
-    margin-left: 0;
-    right: 0px;
-    transition: 0.25s;
-    z-index: 10;
-    left: auto;
-    overflow-y: hidden;
-    max-height: 100%;
-  }
+.sidenav {
+  background-color: #fe9260;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 90px;
+  margin-left: 40px;
+  right: 0px;
+  transition: 0.25s;
+  z-index: 10;
+  left: auto;
+  overflow-y: hidden;
+  max-height: 100%;
+  display: block;
+}
 
-  .logo {
-    height: 30px;
-    width: 30px;
-    display: block;
-    margin: auto auto 30px auto;
-    justify-content: center;
-    align-items: center;
-    -webkit-filter: invert(100%); /* Safari/Chrome */
-    filter: invert(100%);
-  }
+.logo {
+  height: 30px;
+  width: 30px;
+  display: block;
+  margin: auto auto 30px auto;
+  justify-content: center;
+  align-items: center;
+  -webkit-filter: invert(100%); /* Safari/Chrome */
+  filter: invert(100%);
+}
 
-  .links {
-    position: absolute;
-    bottom: 0;
-    left: 35%;
+.links {
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .avatar {
+    display: none;
   }
 }
 

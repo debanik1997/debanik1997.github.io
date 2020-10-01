@@ -15,13 +15,14 @@ var ReactRotatingText = require("react-rotating-text")
 const IndexPage = () => (
   <Layout>
     <Row>
-      <Col style={{ marginTop: 82 }}>
-        <Image src={avatar} />
+      <Col sm={4} className="avatar">
+        <Image style={{maxWidth: "100%", top: "25%", position: "absolute" }} src={avatar} />
       </Col>
-      <Col style={{ marginTop: 115, marginRight: 50 }}>
+      <Col sm={1} ></Col>
+      <Col className="content" sm={7} style={{ marginTop: 115 }}>
         <h1 className="title">
           Hey
-          <span class="wave" role="img" aria-label="wave">
+          <span className="wave" role="img" aria-label="wave">
             &nbsp;👋
           </span>
           &nbsp;, Debanik here!
