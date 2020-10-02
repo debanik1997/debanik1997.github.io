@@ -1,14 +1,14 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Sidebar from "./Sidebar"
+import Navbar from "./Navbar"
 
 const Layout = ({ children }) => {
   return (
     <div class="main-wrapper">
-      <div class="main">
+      <div className="all-children">
         <main>{children}</main>
       </div>
-      <Sidebar />
+      <Navbar />
     </div>
   )
 }

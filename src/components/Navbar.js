@@ -2,11 +2,22 @@ import React from "react"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/index.css"
 
-const Sidebar = () => {
+const Navbar = () => {
   //   const [open, setOpen] = useState(false);
   return (
-    <div class="sidenav">
-      <div class="links">
+    <div className="sidenav">
+      {/* <div className="sections">
+        <div>
+          <a href="#projects">projects</a>
+        </div>
+        <div>
+          <a href="#food">food</a>
+        </div>
+        <div>
+          <a href="#coffee">coffee</a>
+        </div>
+      </div> */}
+      <div className="links">
         <a href="https://www.instagram.com/debanik1997/">
           <img
             class="logo"
@@ -33,4 +44,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Navbar

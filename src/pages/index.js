@@ -3,29 +3,30 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "../styles/index.css"
 
 import avatar from "../images/avatar_1.png"
-import thumbsUp from "../images/facebook.png"
 import Image from "react-bootstrap/Image"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 
 import Layout from "../components/layout"
+import AboutMe from "../components/AboutMe"
 
 var ReactRotatingText = require("react-rotating-text")
 
 const IndexPage = () => (
   <Layout>
-    <Row>
+    <Row className="intro">
       <Col sm={4} className="avatar">
-        <Image style={{maxWidth: "100%", top: "25%", position: "absolute" }} src={avatar} />
+        <Image
+          style={{ maxWidth: "100%", top: "25%", position: "absolute" }}
+          src={avatar}
+        />
       </Col>
-      <Col sm={1} ></Col>
-      <Col className="content" sm={7} style={{ marginTop: 115 }}>
+      <Col className="content">
         <h1 className="title">
-          Hey
           <span className="wave" role="img" aria-label="wave">
-            &nbsp;👋
+            👋
           </span>
-          &nbsp;, Debanik here!
+          <span className="line">, Debanik here.</span>
         </h1>
         <div style={{ textAlign: "right" }}>
           <h2 className="subtitle">
@@ -42,67 +43,15 @@ const IndexPage = () => (
             />
           </h2>
         </div>
-        <Row>
-          <Col xs={3}>
-            <h3 className="secondary emphasis" style={{ marginTop: 60 }}>
-              about
-            </h3>
-          </Col>
-          <Col>
-            <h3
-              className="secondary"
-              style={{ fontSize: 24, fontWeight: "normal", marginTop: 60 }}
-            >
-              Starting at
-              <span style={{ fontWeight: "bold", color: "#3B5998" }}>
-                &nbsp;Facebook NY&nbsp;
-              </span>
-              in July '21
-              <span style={{ marginLeft: 10}}>
-                <Image style={{ marginBottom: 5}} src={thumbsUp} />
-              </span>
-            </h3>
-            <h3 className="secondary emphasis" style={{ marginTop: 6 }}>
-              I’m passionate about seeing projects from start to finish, and
-              love working cross-functionally across engineering and product.
-              when I’m not coding, I enjoy photography, cooking, and discovering
-              new coffee shops.
-            </h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={3}>
-            <h3 className="secondary emphasis" style={{ marginTop: 40 }}>
-              contact
-            </h3>
-          </Col>
-          <Col>
-            <h3 className="secondary" style={{ marginTop: 40 }}>
-              debanik1997@gmail.com
-            </h3>
-            <h3 className="secondary">4846249881</h3>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs={3}>
-            <h3 className="secondary emphasis" style={{ marginTop: 40 }}>
-              resume
-            </h3>
-          </Col>
-          <Col>
-            <h3 className="secondary" style={{ marginTop: 40 }}>
-              <a
-                href="https://drive.google.com/file/d/1wot3C2eAWQXjkwbh7tou0wx3oAcWqnst/view?usp=sharing"
-                target="_blank"
-                rel="noreferrer"
-              >
-                dpurkayastha.pdf
-              </a>
-            </h3>
-          </Col>
-        </Row>
+        <AboutMe />
       </Col>
     </Row>
+    {/* <Row id="#projects">
+
+    </Row>
+    <Row id="food">
+
+    </Row> */}
   </Layout>
 )
 

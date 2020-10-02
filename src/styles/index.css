@@ -4,6 +4,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: KayakSans;
   src: url("../fonts/Kayak Sans Regular.otf");
@@ -21,11 +25,11 @@ body {
   font-size: 40px;
   line-height: 81px;
   display: flex;
-  align-items: center;
-  text-align: right;
+  /* align-items: center; */
+  /* text-align: right; */
   color: #000000;
-  left: 0;
-  right: 0;
+  /* left: 0;
+  right: 0; */
 }
 
 .subtitle {
@@ -75,12 +79,22 @@ body {
   }
 }
 
+.intro {
+  margin-right: 90px;
+}
+
+.line {
+  display: inline-block;
+  white-space: nowrap;
+}
+
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.5s; /* Change to speed up or slow down */
   animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  /* display: inline-block; */
+  transform-origin: 70% 70%; 
+  /* height: 20px; */
+  display: inline-block;
 }
 
 @keyframes wave-animation {
@@ -119,17 +133,12 @@ body {
   width: 100%;
 }
 
-.main {
-  margin-right: 90px;
-}
-
 .sidenav {
   background-color: #fe9260;
   position: fixed;
   top: 0;
   height: 100%;
   width: 90px;
-  margin-left: 40px;
   right: 0px;
   transition: 0.25s;
   z-index: 10;
@@ -140,10 +149,10 @@ body {
 }
 
 .logo {
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
   display: block;
-  margin: auto auto 30px auto;
+  margin: auto auto 20px auto;
   justify-content: center;
   align-items: center;
   -webkit-filter: invert(100%); /* Safari/Chrome */
@@ -156,12 +165,58 @@ body {
   left: 35%;
 }
 
-@media only screen and (max-width: 1000px) {
-  .avatar {
-    display: none;
-  }
+.avatar {
+  margin-right: 50px;
 }
 
 .main {
   margin-right: 90px;
+}
+
+.content {
+  margin-top: 115px;
+}
+
+@media only screen and (max-width: 800px) {
+  .all-children {
+    padding: 20px;
+  }
+  .intro {
+    margin-right: 0px;
+  }
+  .avatar {
+    display: none;
+  }
+  h1 span {
+    display: table;
+  }
+  .sidenav {
+    background-color: #fe9260;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    transition: 0.25s;
+    z-index: 10;
+    left: auto;
+    overflow-x: hidden;
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .logo {
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin: auto 20px auto auto;
+    -webkit-filter: invert(100%); /* Safari/Chrome */
+    filter: invert(100%);
+  }
+
+  .content {
+    margin-top: 80px;
+  }
 }
