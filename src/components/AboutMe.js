@@ -64,7 +64,7 @@ const AboutMe = () => {
             conversations. A software engineer by trade, I've built iOS apps, a
             COVID-19 community web platform, localization tools at{" "}
             <span style={{ color: "#0085CA", fontSize: 20 }}><strong>Medtronic</strong></span>, and integrity
-            infrastrucutre at{" "}
+            infrastructure at{" "}
             <span className="instagram">
               <strong>Instagram</strong>
             </span>
