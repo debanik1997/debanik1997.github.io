@@ -62,9 +62,13 @@ const AboutMe = () => {
             I'm intrigued by design, technology, photography, traveling,
             armchair philosophy, artisan coffee, fabulous foods, and even better
             conversations. A software engineer by trade, I've built iOS apps, a
-            COVID-19 community web platform, localization tools at Medtronic,
-            and integrity infrastrucutre at Instagram. Drop me a note if you'd
-            like to connect!
+            COVID-19 community web platform, localization tools at{" "}
+            <span style={{ color: "#0085CA", fontSize: 20 }}><strong>Medtronic</strong></span>, and integrity
+            infrastrucutre at{" "}
+            <span className="instagram">
+              <strong>Instagram</strong>
+            </span>
+            . Drop me a note if you'd like to connect!
           </h3>
         </Col>
       </Row>
@@ -76,9 +80,9 @@ const AboutMe = () => {
         </Col>
         <Col>
           <h3 className="secondary" style={{ marginTop: 40 }}>
-            debanik1997@gmail.com
+            debanik1997@gmail.com 📬
           </h3>
-          <h3 className="secondary">4846249881</h3>
+          <h3 className="secondary">4846249881 📲</h3>
         </Col>
       </Row>
       <Row>

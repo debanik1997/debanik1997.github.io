@@ -224,3 +224,10 @@ html {
     margin-top: 60px;
   }
 }
+
+.instagram {
+  background: -webkit-linear-gradient(#DD2A7B, #8134AF, #515BD4);
+  font-size: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
