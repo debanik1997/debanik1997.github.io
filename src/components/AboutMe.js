@@ -31,7 +31,7 @@ const AboutMe = () => {
           </h3>
           <h3 className="secondary emphasis" style={{ marginTop: 6 }}>
             I’m passionate about seeing projects from start to finish, and love
-            working cross-functionally across engineering and product. when I’m
+            working cross-functionally across engineering and product. When I’m
             not coding, I enjoy photography, cooking, and discovering new coffee
             shops.
           </h3>
