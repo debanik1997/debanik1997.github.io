@@ -52,12 +52,15 @@ const IndexPage = () => (
         <AboutMe />
       </Col>
     </Row>
-    {/* <Row id="#projects">
+    <Row id="#projects">
 
     </Row>
-    <Row id="food">
+    <Row id="#food">
 
-    </Row> */}
+    </Row>
+    <Row id="#food">
+
+    </Row>
   </Layout>
 )
 
