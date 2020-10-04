@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Navbar from "./Navbar"
+import TopNavbar from "./TopNavbar"
 
 import Helmet from "react-helmet"
 
@@ -27,6 +28,7 @@ const Layout = ({ children }) => {
         <meta property="twitter:description" content="Welcome :)" />
         <meta property="twitter:image" content="https://debanikpurkayastha.com/screenview.png" />
       </Helmet>
+      <TopNavbar />
       <div className="all-children">
         <main>{children}</main>
       </div>

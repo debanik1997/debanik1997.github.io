@@ -11,7 +11,7 @@ const AboutMe = () => {
     <div>
       <Row>
         <Col xs={3}>
-          <h3 className="secondary emphasis" style={{ marginTop: 60 }}>
+          <h3 className="secondary emphasis" style={{ marginTop: 45 }}>
             about
           </h3>
         </Col>
@@ -20,9 +20,8 @@ const AboutMe = () => {
             className="secondary"
             style={{
               fontWeight: "normal",
-              marginTop: 60,
+              marginTop: 45,
               fontSize: 24,
-              fontWeight: "bold",
             }}
           >
             {/* Starting at
@@ -74,12 +73,12 @@ const AboutMe = () => {
       </Row>
       <Row>
         <Col xs={3}>
-          <h3 className="secondary emphasis" style={{ marginTop: 40 }}>
+          <h3 className="secondary emphasis" style={{ marginTop: 30 }}>
             contact
           </h3>
         </Col>
         <Col>
-          <h3 className="secondary" style={{ marginTop: 40 }}>
+          <h3 className="secondary" style={{ marginTop: 30 }}>
             debanik1997@gmail.com 📬
           </h3>
           <h3 className="secondary">4846249881 📲</h3>
@@ -87,12 +86,12 @@ const AboutMe = () => {
       </Row>
       <Row>
         <Col xs={3}>
-          <h3 className="secondary emphasis" style={{ marginTop: 40 }}>
+          <h3 className="secondary emphasis" style={{ marginTop: 30 }}>
             resume
           </h3>
         </Col>
         <Col>
-          <h3 className="secondary" style={{ marginTop: 40 }}>
+          <h3 className="secondary" style={{ marginTop: 30 }}>
             <a
               href="https://drive.google.com/file/d/1wot3C2eAWQXjkwbh7tou0wx3oAcWqnst/view?usp=sharing"
               target="_blank"

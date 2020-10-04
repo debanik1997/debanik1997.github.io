@@ -18,6 +18,42 @@ html {
   src: url("../fonts/ShareTech-Regular.ttf");
 }
 
+#scroll-down-icon {
+  color: #fe9260;
+  bottom: 10px;
+  position: absolute;
+  left: 50%;
+  font-size: 30px;
+  /* margin-top: 20px; */
+  -webkit-animation: mover 0.5s infinite alternate;
+  animation: mover 0.5s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+    animation-timing-function: ease;
+  }
+}
+
+
+@media only screen and (max-width: 1107px) {
+  #scroll-down-icon {
+    display: none;
+  }
+}
+
 .title {
   font-family: ShareTech-Regular;
   font-style: normal;
@@ -87,6 +123,7 @@ html {
 
 .intro {
   margin-right: 90px;
+  height: 100vh;
 }
 
 .line {
@@ -178,7 +215,8 @@ html {
 }
 
 .content {
-  margin-top: 115px;
+  top: 7%;
+  margin-right: 15px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -187,9 +225,13 @@ html {
   }
   .intro {
     margin-right: 0px;
+    height: auto;
   }
   .avatar {
     display: none;
+  }
+  .timeline {
+    margin-right: -15px !important;
   }
   h1 span {
     display: table;
@@ -221,7 +263,7 @@ html {
   }
 
   .content {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 }
 
@@ -230,4 +272,8 @@ html {
   font-size: 20px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.timeline {
+  margin-right: 105px;
 }

@@ -8,10 +8,10 @@ const Navbar = () => {
     <div className="sidenav">
       {/* <div className="sections">
         <div>
-          <a href="#projects">projects</a>
+          <a href="#timeline">Timeline</a>
         </div>
         <div>
-          <a href="#food">food</a>
+          <a href="#home">food</a>
         </div>
         <div>
           <a href="#coffee">coffee</a>
