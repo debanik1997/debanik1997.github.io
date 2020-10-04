@@ -8,7 +8,7 @@ const TopNavbar = () => {
   return (
     <Navbar expand="lg">
       <Navbar.Brand
-        href="./"
+        href="/"
         style={{ fontSize: 25, fontWeight: "bold", fontStyle: "italic" }}
       >
         dp
@@ -16,9 +16,9 @@ const TopNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="./">Home</Nav.Link>
-          <Nav.Link href="projects">Projects</Nav.Link>
-          <Nav.Link href="coffee">Map O' Joe</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/projects">Projects</Nav.Link>
+          <Nav.Link href="/coffee">Map O' Joe</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
