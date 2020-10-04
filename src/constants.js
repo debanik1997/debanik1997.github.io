@@ -12,7 +12,7 @@ export const timelineData = [
     },
   },
   {
-    text: "Added a computer science double major after taking data structures",
+    text: "Added a Computer Science double major after taking data structures",
     date: "January 2018",
     category: {
       tag: "School 🎓",
@@ -100,7 +100,7 @@ export const timelineData = [
     },
   },
   {
-    text: "Started a masters in CS at JHU",
+    text: "Started a masters in Computer Science at JHU",
     date: "Fall 2020",
     category: {
       tag: "School 🎓",

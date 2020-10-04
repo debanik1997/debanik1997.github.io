@@ -6,7 +6,7 @@ import { Navbar, Nav, NavDropdown } from "react-bootstrap"
 
 const TopNavbar = () => {
   return (
-    <Navbar expand="lg">
+    <Navbar expand="lg" className="topNav">
       <Navbar.Brand
         href="/"
         style={{ fontSize: 25, fontWeight: "bold", fontStyle: "italic" }}

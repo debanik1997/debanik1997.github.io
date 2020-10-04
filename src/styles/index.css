@@ -265,6 +265,10 @@ html {
   .content {
     margin-top: 40px;
   }
+
+  .topNav {
+    padding-left: 20px !important;
+  }
 }
 
 .instagram {
@@ -276,4 +280,8 @@ html {
 
 .timeline {
   margin-right: 105px;
+}
+
+.topNav {
+  padding-left: 60px;
 }
