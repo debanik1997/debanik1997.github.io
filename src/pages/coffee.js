@@ -7,7 +7,7 @@ import Jumbotron from "react-bootstrap/Jumbotron"
 
 const CoffeePage = () => (
   <Layout>
-    <SEO title="Photography" />
+    <SEO title="Coffee ☕️" />
     <Jumbotron style={{background: "none"}}>
       <h1>Under construction 🚧</h1>
       <p>

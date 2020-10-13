@@ -18,7 +18,7 @@ const TopNavbar = () => {
         <Nav className="mr-auto">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/projects">Projects</Nav.Link>
-          <Nav.Link href="/photography">Photography</Nav.Link>
+          <Nav.Link href="/coffee">Map O' Joe</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
