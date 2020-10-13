@@ -5,6 +5,7 @@ import Layout from "../../../components/layout"
 import SEO from "../../../components/seo"
 
 import { Jumbotron, Row, Col } from "react-bootstrap"
+import ReactPlayer from "react-player"
 
 const HCIAssignment1 = () => {
   return (
@@ -17,7 +18,7 @@ const HCIAssignment1 = () => {
           </Jumbotron>
         </Col>
       </Row>
-      <div style={{ marginRight: 90, paddingLeft: 60, paddingRight: 60 }}>
+      <div className="textContent">
         <h2 className="subtitle emphasis">Design Focus and Problem Space 🚀</h2>
         <p className="regularText">
           We are all familiar with the all-too-common problem of Netflix
@@ -101,7 +102,7 @@ const HCIAssignment1 = () => {
           className="projectimage"
         />
         <p className="regularTextTitle highlight emphasis">Key Takeaways</p>
-        <p>
+        <p className="regularText">
           From the contextual inquiry phase, we can deduce 3 main takeaways:
           <ul style={{ marginLeft: 30 }}>
             <li>
@@ -143,6 +144,22 @@ const HCIAssignment1 = () => {
           className="projectimage"
         />
         <h2 className="subtitle emphasis">Prototype Evaluation 🎈</h2>
+        <ReactPlayer
+          controls={true}
+          url="../../../jay.mp4"
+          style={{ marginBottom: 20, maxHeight: 400 }}
+          className="projectimage"
+        />
+        <p className="regularTextTitle highlight emphasis">
+          Evaluation Summary
+        </p>
+        <p className="regularText" style={{marginBottom: 30}}>
+          The subject seemed to enjoy the newly added "social component" to the
+          Netflix user experience. Having recommendations from friends help
+          address the primary breakdown found during the contextual inquiry i.e.
+          people struggle to choose a show to watch on their own and rely on
+          friends' suggestions when deciding what to watch.
+        </p>
       </div>
     </Layout>
   )

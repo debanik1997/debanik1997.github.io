@@ -30,7 +30,7 @@ const ProjectPage = () => {
       name: "HCI",
       year: "2020",
       url: "/projects/hci",
-      imageurl: "../../avatar_1.png",
+      imageurl: "../../ptype.png",
       color: "#ffe5ae",
       desc:
         "I took Introduction to Human-Computer Interaction during fall '20. Heres some work I did.",

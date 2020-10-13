@@ -151,3 +151,19 @@
   text-justify: inter-word;
   font-size: 20px;
 }
+
+.textContent {
+  margin-right: 150px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media only screen and (max-width: 800px) {
+  .textContent {
+    margin-right: 0px;
+  }
+
+  .regularText {
+    text-align: left;
+  }
+}
